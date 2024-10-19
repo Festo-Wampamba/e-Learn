@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e-Learn</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Remix Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+    />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="img/logo.png" alt="logo" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="ri-close-fill icon" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="courses.html">COURSES</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+          </ul>
+        </div>
+        <i class="ri-menu-fill icon" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Learn on your schedule</h1>
+        <p>
+          Study any topic, anytime. Choose from thousands of expert-led courses
+          now.
+        </p>
+        <a href="courses.html" class="hero-btn">Explore Courses</a>
+      </div>
+    </section>
+
+    <!-- Courses -->
+
+    <section class="courses">
+      <h1>Our Top Courses</h1>
+      <p>Choose from our top courses and start learning now</p>
+      <div class="row">
+        <div class="courses-col">
+          <h3>Web Development</h3>
+          <p>
+            Learn web development from scratch with our comprehensive course
+            designed for beginners and experienced developers alike. Master the
+            latest technologies and frameworks to build responsive and dynamic
+            websites.
+          </p>
+          <a href="courses.html" class="hero-btn">Enroll Now</a>
+        </div>
+        <div class="courses-col">
+          <h3>Software Engineering</h3>
+          <p>
+            Our Software Engineering course provides a solid foundation in
+            software development principles and practices. Gain hands-on
+            experience with real-world projects and learn to design, develop,
+            and maintain software systems efficiently.
+          </p>
+          <a href="courses.html" class="hero-btn">Enroll Now</a>
+        </div>
+        <div class="courses-col">
+          <h3>Artificial Intelligence</h3>
+          <p>
+            Our Artificial Intelligence course covers the fundamentals of AI,
+            including machine learning, neural networks, and deep learning. Gain
+            practical experience through hands-on projects and learn to build
+            intelligent systems that can solve real-world problems.
+          </p>
+          <a href="courses.html" class="hero-btn">Enroll Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us -->
+
+    <section class="about">
+      <h1>About Us</h1>
+      <p>
+        At e-Learn, we believe that education is the key to unlocking your full
+        potential. Our mission is to provide high-quality, affordable online
+        courses to help you achieve your goals and advance your career. Whether
+        you want to learn a new skill, explore a new subject, or improve your
+        existing knowledge, we have the perfect course for you.
+      </p>
+      <a href="about.html" class="hero-btn">Learn More</a>
+
+      <div class="about-col">
+        <img src="img/students.png" alt="mission" class="img-right" />
+        <h3 class="h3r">Our Mission</h3>
+        <p class="para-r">
+          Our mission is to make learning accessible to everyone, everywhere. We
+          are committed to providing high-quality online courses that are
+          affordable, engaging, and effective.
+        </p>
+      </div>
+      <div class="about-col">
+        <h3 class="h3l">Our Vision</h3>
+        <p class="para-l">
+          Our vision is to empower individuals to reach their full potential
+          through education. We believe that learning is a lifelong journey and
+          that everyone should have the opportunity to learn and grow.
+        </p>
+        <img src="img/students1.png" alt="vision" class="img-left" />
+      </div>
+    </section>
+
+    <!-- OUR PROJECTS -->
+
+    <section class="projects">
+      <h1>Our Projects</h1>
+      <p>
+        Check out some of our latest projects and see what our students have
+        created.
+      </p>
+      <div class="project-row">
+        <div class="projects-col">
+          <img src="img/Web.png" alt="project" />
+          <h3>Web Development</h3>
+          <p>
+            Our Web Development course teaches you how to build responsive and
+            dynamic websites using HTML, CSS, and JavaScript. Check out some of
+            the amazing projects created by our students.
+          </p>
+        </div>
+        <div class="projects-col">
+          <img src="img/se.png" alt="project" />
+          <h3>Software Engineering</h3>
+          <p>
+            Our Software Engineering course covers the principles and practices
+            of software development. See some of the innovative projects
+            developed by our students using the latest technologies and tools.
+          </p>
+        </div>
+        <div class="projects-col">
+          <img src="img/Ai.png" alt="project" />
+          <h3>Artificial Intelligence</h3>
+          <p>
+            Our Artificial Intelligence course explores the world of AI and
+            machine learning. Discover the cutting-edge projects created by our
+            students and learn how AI is transforming industries and society.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call To Action -->
+
+    <section class="cta">
+      <h1>Start Learning Today</h1>
+      <p>
+        Join thousands of students who are learning new skills, advancing their
+        careers, and exploring new subjects with e-Learn. Enroll in our online
+        courses and start learning today.
+      </p>
+      <a href="courses.html" class="hero-btn">Enroll Now</a>
+    </section>
+
+    <!-- CONTACT SECTION -->
+
+    <section class="contact">
+      <div class="container">
+        <h1 class="section-title">Contact Us</h1>
+        <p class="section-description">
+          Have a question or need help? Contact us and we'll get back to you as
+          soon as possible.
+        </p>
+
+        <div class="contact-form">
+          <form>
+            <div class="form-group">
+              <input
+                type="text"
+                name="name"
+                class="msg-box"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                class="msg-box"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                class="msg-box"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="hero-btn">Send Message</button>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          <div class="info-item">
+            <i class="ri-map-pin-line"></i>
+            <p>10315, Kampala, Uganda</p>
+          </div>
+          <div class="info-item">
+            <i class="ri-phone-line"></i>
+            <p>+126 (555) 123-4567</p>
+          </div>
+          <div class="info-item">
+            <i class="ri-mail-line"></i>
+            <p>borcellonline@academy.edu</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <h4>About e-Learn</h4>
+      <p>
+        Empowering learners with high-quality, affordable online courses to achieve their goals and advance their careers.
+      </p>
+      <div class="social-icons">
+        <a href="https://github.com/Festo1" target="_blank" rel="noopener" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+        <a href="https://twitter.com/e_learn" target="_blank" rel="noopener" aria-label="Twitter"><i class="ri-twitter-fill"></i></a>
+        <a href="https://linkedin.com/company/e-learn" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+        <a href="https://instagram.com/e_learn" target="_blank" rel="noopener" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+      </div>
+      <p class="copyright">&copy; 2024 e-Learn. All rights reserved.</p>
+    </footer>
+
+    <!-- Javascript for buttons -->
+    <script>
+      const navLinks = document.getElementById("navLinks");
+      const body = document.body;
+
+      function showMenu() {
+        navLinks.style.right = "0";
+        body.classList.add("menu-open");
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-250px";
+        body.classList.remove("menu-open");
+      }
+
+      // Close menu when clicking outside
+      document.addEventListener("click", (e) => {
+        if (
+          !navLinks.contains(e.target) &&
+          !e.target.matches(".ri-menu-fill")
+        ) {
+          hideMenu();
+        }
+      });
+    </script>
+  </body>
+</html>
